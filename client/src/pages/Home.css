@@ -1,0 +1,29 @@
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .text h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .girl-image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+  

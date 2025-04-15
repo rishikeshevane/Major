@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rental Clothes Platform - Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('your-background-image.jpg'); /* Replace with the actual image path */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 40px;
+      width: 350px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    .login-container p {
+      margin-top: 0;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .forgot-password {
+      display: block;
+      text-align: right;
+      margin-bottom: 20px;
+    }
+
+    .forgot-password a {
+      color: #57a3f3;
+      text-decoration: none;
+    }
+
+    .login-btn {
+      background-color: black;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .signup-link {
+      margin-top: 20px;
+      display: block;
+      color: black;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .heading {
+      position: absolute;
+      top: 60px;
+      left: 60px;
+      font-size: 40px;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">Rental Clothes<br>Platform</div>
+
+  <div class="login-container">
+    <h2>Log in</h2>
+    <p>Log into your account</p>
+    <form>
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <div class="forgot-password">
+        <a href="#">forgot password?</a>
+      </div>
+      <button class="login-btn" type="submit">Log in</button>
+    </form>
+    <a class="signup-link" href="#">Sign up</a>
+  </div>
+
+</body>
+</html>
